@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*Template.cs
+
+# Unity
+/Library/
+/Logs/
+/Temp/
