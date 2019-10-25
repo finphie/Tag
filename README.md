@@ -43,7 +43,7 @@ finphie
 
 ## ライセンス
 
-![ライセンスロゴ](Light_Silhouette.svg)
+![ライセンスロゴ](Light_Silhouette.svg)  
 このプロジェクトは、『[ユニティちゃんライセンス](http://unity-chan.com/contents/license_jp/)』で提供されています。  
 このプロジェクトをご利用される場合は、『[キャラクター利用のガイドライン](http://unity-chan.com/contents/guideline/)』も併せてご確認ください。
 
@@ -53,7 +53,9 @@ finphie
 
 ### アセット
 
-- Gaia Pro
-- Gena 2
-- ユニティちゃん 3Dモデルデータ
-  > © Unity Technologies Japan
+- Gaia Pro: <https://assetstore.unity.com/packages/tools/terrain/gaia-pro-terrain-scene-generator-155852>  
+  © Procedural Worlds
+- Gena 2: <https://assetstore.unity.com/packages/tools/terrain/gena-2-terrain-scene-spawner-127636>  
+  © Procedural Worlds
+- ユニティちゃん 3Dモデルデータ: <http://unity-chan.com/>  
+  © Unity Technologies Japan
