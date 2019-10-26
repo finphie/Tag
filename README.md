@@ -53,9 +53,17 @@ finphie
 
 ### アセット
 
-- Gaia Pro: <https://assetstore.unity.com/packages/tools/terrain/gaia-pro-terrain-scene-generator-155852>  
-  © Procedural Worlds
-- Gena 2: <https://assetstore.unity.com/packages/tools/terrain/gena-2-terrain-scene-spawner-127636>  
-  © Procedural Worlds
-- ユニティちゃん 3Dモデルデータ: <http://unity-chan.com/>  
-  © Unity Technologies Japan
+- Cinemachine  
+© Unity Technologies
+- Gaia Pro  
+<https://assetstore.unity.com/packages/tools/terrain/gaia-pro-terrain-scene-generator-155852>  
+© Procedural Worlds
+- Gena 2  
+<https://assetstore.unity.com/packages/tools/terrain/gena-2-terrain-scene-spawner-127636>  
+© Procedural Worlds
+- Standard Assets  
+<https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-32351>  
+© Unity Technologies
+- ユニティちゃん 3Dモデルデータ  
+<http://unity-chan.com/>  
+© Unity Technologies Japan
