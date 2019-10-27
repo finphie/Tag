@@ -53,6 +53,9 @@ finphie
 
 ### アセット
 
+- Behavior Designer - Behavior Trees for Everyone
+<https://assetstore.unity.com/packages/tools/visual-scripting/behavior-designer-behavior-trees-for-everyone-15277>  
+© Opsive
 - Cinemachine  
 © Unity Technologies
 - Gaia Pro  
@@ -65,5 +68,8 @@ finphie
 <https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-32351>  
 © Unity Technologies
 - ユニティちゃん 3Dモデルデータ  
+<http://unity-chan.com/>  
+© Unity Technologies Japan
+- SDユニティちゃん 3Dモデルデータ  
 <http://unity-chan.com/>  
 © Unity Technologies Japan
