@@ -23,12 +23,12 @@ public class WarpAction : Action
     {
         var destinationPosition = destination.Value.transform.position;
 
-        // プレイヤーとの距離が近い場合はワープしない。
-        if (Vector3.Distance(target.Value.transform.position, destinationPosition) < 5)
-            return TaskStatus.Failure;
-
         // ワープ先のプレイヤーとの距離
         var distance = Random.Range(5, 10);
+
+        // ワープした結果、プレイヤーとの距離が遠くなる場合はワープしない。
+        if (Vector3.Distance(target.Value.transform.position, destinationPosition) < distance)
+            return TaskStatus.Failure;
 
         // 角度
         var angle = Random.Range(0, 180) * Mathf.Deg2Rad;
