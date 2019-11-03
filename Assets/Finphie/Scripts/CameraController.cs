@@ -3,15 +3,14 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CinemachineFreeLook))]
-[RequireComponent(typeof(PlayerInput))]
 public class CameraController : MonoBehaviour
 {
     CinemachineFreeLook cinemachine;
 
     public Vector2 Look { get; private set; }
 
-    public void OnLook(InputValue value)
-        => Look = value.Get<Vector2>();
+    public void OnLook(InputAction.CallbackContext context)
+        => Look = context.ReadValue<Vector2>();
 
     void Start()
         => cinemachine = GetComponent<CinemachineFreeLook>();
