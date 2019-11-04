@@ -31,9 +31,4 @@ public class NonPlayerController : MonoBehaviour
         agent.isStopped = true;
         animator.SetFloat("Speed", 0);
     }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log(collision.transform.name);
-    }
 }
