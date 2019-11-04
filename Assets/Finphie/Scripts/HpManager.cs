@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class HpManager : MonoBehaviour
@@ -21,7 +22,14 @@ public class HpManager : MonoBehaviour
     void FixedUpdate()
     {
         if (!isDamage)
+        {
+            // ゲームパッドの振動を停止する。
+            Gamepad.current?.SetMotorSpeeds(0, 0);
             return;
+        }
+
+        // ゲームパッドを振動させる。
+        Gamepad.current?.SetMotorSpeeds(1, 1);
 
         hp -= damage;
         slider.value = (float)hp / maxHp;
